@@ -9,3 +9,6 @@ Select from left dropdown: Under release section "Tasmota32 LVGL (english)"
 
 Erase flash
 
+### Configure Tasmota
+Configuration->Auto-configuration
+
