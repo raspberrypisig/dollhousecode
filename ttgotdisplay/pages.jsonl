@@ -1,15 +1,22 @@
-{"page":2,"comment":"---------- Upper stat line ----------"}
-{"id":0,"text_color":"#FFFFFF"}
-{"id":1,"obj":"label","x":0,"y":0,"w":270,"padLeft":50,"padTop":3,"h":30,"bg_color":"#D00000","bg_opa":255,"radius":0,"border_side":0,"text":"        TEMPERATURE","text_font":"montserrat-20"}
+{"page":1,"comment":"---------- Page 1 - Temperature ----------"}
+{"id":0,"bg_color":"#2094f3","text_color":"#FFFFFF"}
+{"id":1,"obj":"label","x":35,"y":40,"w":150,"h":85,"radius":0,"border_side":0,"text":"22.7","text_font":"seg7-48"}
+{"id":2,"obj":"label","x":180,"y":40,"w":50,"h":85,"radius":0,"border_side":0,"text":"°C","text_font":"montserrat-28"}
 
-{"page":3,"comment":"---------- Page 3 ----------"}
-{"id":0,"bg_color":"#0000A0","bg_grad_color":"#000000","bg_grad_dir":1,"text_color":"#FFFFFF"}
-{"id":2,"obj":"arc","x":50,"y":35,"w":100,"h":90,"border_side":0,"type":0,"rotation":0,"start_angle":180,"end_angle":0,"start_angle1":180,"value_font":12,"value_ofs_x":0,"value_ofs_y":-14,"bg_opa":0,"text":"--.-°C","min":200,"max":800,"val":400,"val_rule":"ESP32#Temperature","val_rule_formula":"val * 10","text_rule":"ESP32#Temperature","text_rule_format":"%2.1f °C"}
-
-{"page":4,"comment":"---------- Page 1 ----------"}
-{"id":0,"bg_color":"#0000A0","bg_grad_color":"#000000","bg_grad_dir":1,"text_color":"#FFFFFF"}
-{"id":1,"obj":"arc","x":0,"y":0,"w":200,"h":135,"border_side":0,"type":0,"rotation":0,"start_angle":180,"end_angle":0,"start_angle1":180,"value_font":12,"value_ofs_x":0,"value_ofs_y":-14,"bg_opa":0,"text":"--.-°C","min":200,"max":800,"val":400,"val_rule":"ESP32#Temperature","val_rule_formula":"val","text_rule":"ESP32#Temperature","text_rule_format":"%2.1f °C"}
-
-{"page":1,"comment":"---------- Page 1 ----------"}
+{"page":2,"comment":"---------- Page 2 - Humidity ----------"}
 {"id":0,"bg_color":"#D00000","text_color":"#FFFFFF"}
-{"id":1,"obj":"label","x":50,"y":40,"w":220,"h":85,"radius":0,"border_side":0,"text":"22.7","text_font":"seg7-48"}
+{"id":1,"obj":"label","x":35,"y":40,"w":150,"h":85,"radius":0,"border_side":0,"text":"22.7","text_font":"seg7-48"}
+{"id":2,"obj":"label","x":180,"y":40,"w":50,"h":85,"radius":0,"border_side":0,"text":"°C","text_font":"montserrat-28"}
+
+{"page":3,"comment":"---------- Page 3 - Pressure ---------"}
+{"id":0,"bg_color":"#808000","text_color":"#FFFFFF"}
+{"id":1,"obj":"label","x":35,"y":40,"w":150,"h":85,"radius":0,"border_side":0,"text":"22.7","text_font":"seg7-48"}
+{"id":2,"obj":"label","x":180,"y":40,"w":50,"h":85,"radius":0,"border_side":0,"text":"°C","text_font":"montserrat-28"}
+
+
+{"page":15,"comment":"---------- Page 15 - try image ----------"}
+{"id":0,"bg_color":"#D00000","text_color":"#000000"}
+{"id":10,"obj":"img","src":"A:bang.png","x":20,"y":20,"w":32,"h":32}
+
+
+
