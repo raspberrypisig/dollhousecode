@@ -35,6 +35,20 @@ else
 end
 -#
 
+#-
+lv.start()
+
+hres = lv.get_hor_res()
+print(hres)
+vres = lv.get_ver_res()
+print(vres)
+
+scr = lv.scr_act()
+scr.clean()
+
+img = lv.img(scr)
+img.set_src("A:bang.png")
+-#
 
 
 
