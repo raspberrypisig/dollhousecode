@@ -1,17 +1,21 @@
-{"page":1,"comment":"---------- Page 1 - Temperature ----------"}
+{"page":1,"comment":"---------- Page 1 - try image ----------"}
+{"id":0,"bg_color":"#DCDCDC","text_color":"#000000"}
+{"id":10,"obj":"img","src":"A:barometer4.png","x":80,"y":20,"w":77,"h":80}
+
+{"page":2,"comment":"---------- Page 2 - Temperature ----------"}
 {"id":0,"bg_color":"#2094f3","text_color":"#FFFFFF"}
 {"id":1,"obj":"label","x":35,"y":40,"w":150,"h":85,"radius":0,"border_side":0,"text":"22.7","text_font":"seg7-48"}
 {"id":2,"obj":"label","x":180,"y":40,"w":50,"h":85,"radius":0,"border_side":0,"text":"°C","text_font":"montserrat-28"}
 
-{"page":2,"comment":"---------- Page 2 - Humidity ----------"}
+{"page":3,"comment":"---------- Page 3 - Humidity ----------"}
 {"id":0,"bg_color":"#D00000","text_color":"#FFFFFF"}
-{"id":1,"obj":"label","x":35,"y":40,"w":150,"h":85,"radius":0,"border_side":0,"text":"22.7","text_font":"seg7-48"}
-{"id":2,"obj":"label","x":180,"y":40,"w":50,"h":85,"radius":0,"border_side":0,"text":"°C","text_font":"montserrat-28"}
+{"id":1,"obj":"label","x":35,"y":40,"w":150,"h":85,"radius":0,"border_side":0,"text":"45","text_font":"seg7-48"}
+{"id":2,"obj":"label","x":180,"y":40,"w":50,"h":85,"radius":0,"border_side":0,"text":"%","text_font":"montserrat-28"}
 
-{"page":3,"comment":"---------- Page 3 - Pressure ---------"}
+{"page":4,"comment":"---------- Page 4 - Pressure ---------"}
 {"id":0,"bg_color":"#808000","text_color":"#FFFFFF"}
-{"id":1,"obj":"label","x":35,"y":40,"w":150,"h":85,"radius":0,"border_side":0,"text":"22.7","text_font":"seg7-48"}
-{"id":2,"obj":"label","x":180,"y":40,"w":50,"h":85,"radius":0,"border_side":0,"text":"°C","text_font":"montserrat-28"}
+{"id":1,"obj":"label","x":0,"y":40,"w":180,"h":85,"radius":0,"border_side":0,"text":"1012","text_font":"seg7-48"}
+{"id":2,"obj":"label","x":165,"y":40,"w":70,"h":75,"radius":0,"border_side":0,"text":"hPa","text_font":"montserrat-28"}
 
 
 {"page":15,"comment":"---------- Page 15 - try image ----------"}

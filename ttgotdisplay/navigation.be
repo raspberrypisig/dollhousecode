@@ -1,16 +1,16 @@
 class navigation
-    static var mapping = {0: 1, 10: 2, 20: 3}
+    static var mapping = {0: 1, 10: 2, 20: 3, 30: 4}
     var ticks
     def init()
         self.ticks = 0            
     end
     def handle_timer()
-        var pages = [global.p1, global.p1, global.p2, global.p3]
+        var pages = [global.p1, global.p1, global.p2, global.p3, global.p4]
         if navigation.mapping.contains(self.ticks)
             pages[navigation.mapping[self.ticks]].show()
         end
-        if self.ticks == 30
-            self.ticks = 0
+        if self.ticks == 40
+            self.ticks = 10
         else
             self.ticks = self.ticks + 1
         end
@@ -37,21 +37,15 @@ end
 
 #-
 lv.start()
-
 hres = lv.get_hor_res()
 print(hres)
 vres = lv.get_ver_res()
 print(vres)
-
 scr = lv.scr_act()
 scr.clean()
-
 img = lv.img(scr)
 img.set_src("A:bang.png")
 -#
-
-
-
 
 
 
